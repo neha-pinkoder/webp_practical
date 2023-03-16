@@ -2,8 +2,6 @@
 
 > A food recipe web application for creating and getting recipes
 
-![screenshot](./assets/screen.gif)
-
 ## Built With 🌩️
 
 - React
@@ -14,9 +12,6 @@
 - Cloudinary
 - MongoDB
 
-## Live Demo ☁️
-
-[Live Demo Link](https://foodie-beta-eight.vercel.app/)
 
 ## Getting Started ☀️
 
@@ -28,7 +23,7 @@ Install Node and npm using the `npm install` command on your command line, then 
 
 ### Setup
 
-Clone this repository by typing `git clone https://github.com/ikechukwu-peter/foodie.git` on your terminal.
+Clone this repository by typing `git clone https://github.com/neha-pinkoder/webp_practical.git` on your terminal.
 
 ## Installation
 
@@ -82,30 +77,8 @@ $ yarn format
 
 While inside the foodie/backend, run `yarn dev`. This will open a development server.
 
-## **Sponsor** ❤
-
-If you like this project, please give a star ⭐ and/or consider buying me coffee(s). Every donation is appreciated.
-
-  <a href="https://www.buymeacoffee.com/ikechukwupeter">
-    <img width="150px" alt="bmc-button" src="https://user-images.githubusercontent.com/62628408/127788747-8850d386-fc61-4fff-b18f-8c5ee597be34.png">
-  </a>
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Author
-
-👤 **Ikechukwu Peter**
-
-- GitHub: [@ikechukwu-peter](https://github.com/ikechukwu-peter)
-- Twitter: [@pete_iyke](https://twitter.com/pete_iyke)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/peter-ikechukwu/)
 
 ## Acknowledgments
 
 - Hat tip to [Cloudinary](cloudinary.com) for their awesome API to store images and [MongoDB Atlas](mongodb.com) for their awesome DB.
 
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
