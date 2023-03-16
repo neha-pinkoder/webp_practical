@@ -37,9 +37,9 @@ export const DashboardLayout = () => {
       <div className="h-[60px] md:h-[80px] bg-zinc-900 flex items-center justify-between px-3 sticky top-0 z-50">
         <div className="flex items-center">
           <h2 className="text-white font-bold text-xl underline-offset-4 underline">
-            <NavLink to="/dashboard">Foodie</NavLink>
+            <NavLink to="/dashboard">TheFoodies</NavLink>
           </h2>
-          <span className="text-orange-700 font-extrabold text-xl pl-2">.</span>
+          <span className="text-pink-700 font-extrabold text-xl pl-2">.</span>
         </div>
 
         <div className="text-white md:hidden">
@@ -56,11 +56,11 @@ export const DashboardLayout = () => {
           <div className="md:flex gap-8 items-start w-full p-3">
             <img
               className="h-16 w-16 object-cover rounded-full"
-              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
               alt="A image"
             />
             <div>
-              <p className="text-orange-500 font-light">{user}</p>
+              <p className="text-pink-600 font-light">{user}</p>
             </div>
           </div>
           <div className="flex flex-col gap-y-1  mt-3">
@@ -70,8 +70,8 @@ export const DashboardLayout = () => {
                 to={to}
                 className={({ isActive }) =>
                   isActive && pathname === to
-                    ? "text-white font-thin text-sm bg-orange-500 p-4"
-                    : "text-white font-thin text-sm hover:bg-orange-500 p-4"
+                    ? "text-white font-thin text-sm bg-pink-600 p-4"
+                    : "text-white font-thin text-sm hover:bg-pink-600 p-4"
                 }
               >
                 {name}
@@ -80,7 +80,7 @@ export const DashboardLayout = () => {
             <Button
               title="Logout"
               handleClick={handleLogout}
-              className="text-white font-thin text-sm text-left hover:bg-orange-500 p-4"
+              className="text-white font-thin text-sm text-left hover:bg-pink-600 p-4"
             />
           </div>
         </div>
@@ -90,12 +90,12 @@ export const DashboardLayout = () => {
             <div className="flex gap-8 items-start w-full p-3">
               <img
                 className="w-10 h-10 rounded-3xl"
-                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                 alt=""
               />
               <div>
                 <h2 className="text-white font-semibold ">John</h2>
-                <p className="text-orange-700 font-light">john@gmail.com</p>
+                <p className="text-pink-700 font-light">john@gmail.com</p>
               </div>
             </div>
             <div className="flex flex-col gap-y-1  mt-3">
@@ -106,8 +106,8 @@ export const DashboardLayout = () => {
                   onClick={handleOpen}
                   className={({ isActive }) =>
                     isActive && pathname === to
-                      ? "text-white font-thin text-sm bg-orange-500 p-4"
-                      : "text-white font-thin text-sm hover:bg-orange-500 p-4"
+                      ? "text-white font-thin text-sm bg-pink-600 p-4"
+                      : "text-white font-thin text-sm hover:bg-pink-600 p-4"
                   }
                 >
                   {name}
@@ -116,7 +116,7 @@ export const DashboardLayout = () => {
               <Button
                 title="Logout"
                 handleClick={handleLogout}
-                className="text-white font-thin text-sm text-left hover:bg-orange-500 p-4"
+                className="text-white font-thin text-sm text-left hover:bg-pink-600 p-4"
               />
             </div>
           </div>

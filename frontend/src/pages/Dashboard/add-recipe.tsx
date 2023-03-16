@@ -127,7 +127,7 @@ export const AddRecipe = () => {
           <Button
             disabled={loading}
             title={loading ? "Publishing..." : "Publish Recipe"}
-            className={`bg-orange-500 text-white hover:bg-orange-600 py-1 px-6 w-full mb-4 `}
+            className={`bg-pink-600 text-white hover:bg-pink-300 py-1 px-6 w-full mb-4 `}
             type="submit"
           />
         </div>

@@ -25,7 +25,7 @@ export const ImageUploader = ({
         <p className="font-light text-lg">Drag and drop image here....</p>
         <p>or</p>
         <label
-          className="font-light text-lg text-orange-500 hover:cursor-pointer"
+          className="font-light text-lg text-pink-600 hover:cursor-pointer"
           htmlFor="file"
         >
           Choose file

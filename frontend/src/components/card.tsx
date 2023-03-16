@@ -24,13 +24,13 @@ export const RecipeCard = ({
       ingredients={ingredients}
       description={description}
       email={user}
-      avatar="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      avatar="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
     >
       <div className="flex justify-end">
         <Button
           title="View  More"
           handleClick={() => handleViewMore(_id)}
-          className={`bg-orange-500 text-white hover:bg-orange-600 
+          className={`bg-pink-600 text-white hover:bg-pink-500 
           py-1 px-2 w-[50%]
           `}
         />
@@ -95,17 +95,17 @@ export const Card = ({
             alt={"A picture of user"}
           />
           <div className="text-left">
-            <p className="text-orange-500 font-light">{email}</p>
+            <p className="text-pink-600 font-light">{email}</p>
           </div>
         </div>
         <h2
-          className={`text-orange-500 font-bold my-2 text-xl  ${
+          className={`text-pink-600 font-bold my-2 text-xl  ${
             !isFull && "truncate overflow-hidden ..."
           } `}
         >
           {title}
         </h2>
-        <p className="text-orange-500 font-light text-sm">
+        <p className="text-pink-300 font-light text-sm">
           ingredients:{" "}
           <span
             className={`text-white  ${
@@ -125,7 +125,7 @@ export const Card = ({
         </p>
 
         {note && (
-          <p className="text-orange-500 font-light text-sm py-1 md:py-4">
+          <p className="text-pink-600 font-light text-sm py-1 md:py-4">
             note: <span className="text-white">{note}</span>
           </p>
         )}

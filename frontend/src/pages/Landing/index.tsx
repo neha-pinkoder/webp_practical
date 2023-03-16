@@ -50,8 +50,8 @@ export const Landing = () => {
         onSubmit={handleSubmit}
       >
         <div className="flex flex-col gap-2  w-full md:w-[50%]">
-          <h2 className="text-orange-500 font-extrabold text-xl underline underline-offset-4 ">
-            Foodie
+          <h2 className="text-pink-600 font-extrabold text-xl underline underline-offset-4 ">
+           TheFoodies
           </h2>
 
           <Input
@@ -73,7 +73,7 @@ export const Landing = () => {
           <div className="w-full md:w-[50%] m-auto flex flex-col gap-2">
             <Button
               title={loading ? "Loading" : "Login"}
-              className={`bg-orange-500 text-white hover:bg-orange-600 py-1 px-6 w-full `}
+              className={`bg-pink-600 text-white hover:bg-pink-300 py-1 px-6 w-full `}
               type="submit"
               disabled={loading}
             />

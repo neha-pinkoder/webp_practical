@@ -58,6 +58,6 @@
     "prettier": "^2.8.3",
     "rimraf": "^4.1.2",
     "ts-node": "^10.9.1",
-    "typescript": "*"
+    "typescript": "^4.9.5"
   }
 }
