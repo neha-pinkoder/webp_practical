@@ -2,7 +2,6 @@
 
 > A food recipe web application for creating and getting recipes
 
-![screenshot](./assets/screen.gif)
 
 ## Built With 🌩️
 
