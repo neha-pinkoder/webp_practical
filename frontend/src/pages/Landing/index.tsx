@@ -81,7 +81,7 @@ export const Landing = () => {
         </div>
       </Form>
 
-      <div className="w-full h-full saturate-200 ">
+      <div className="w-full h-full">
         <img
           src={recipeOne}
           alt="A dish with food recipes"
