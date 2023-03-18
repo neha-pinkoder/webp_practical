@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Foodie Doodie API",
   "main": "index.js",
-  "repository": "https://github.com/ikechukwu-peter/foodie-doodie",
-  "author": "Ikechukwu Peter",
-  "license": "MIT",
+  "repository": "https://github.com/neha-pinkoder/webp_practical.git",
+  "author": "Neha Gholap",
   "private": false,
   "scripts": {
     "dev": "npx nodemon",
